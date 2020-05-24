@@ -19,6 +19,7 @@ public class TestController {
     @GetMapping("test")
     public String test() {
 int i =90;
+int d =90;
         return "admin/test/index";
     }
 }
