@@ -18,7 +18,7 @@ public class TestController {
 
     @GetMapping("test")
     public String test() {
-
+int i =90;
         return "admin/test/index";
     }
 }
